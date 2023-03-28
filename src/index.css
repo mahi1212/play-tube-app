@@ -5,6 +5,9 @@ body {
   box-sizing: border-box;
 }
 
+.css-1gtdsyn{
+  margin: 0 !important;
+}
 a {
   text-decoration: none;
   color: black;
