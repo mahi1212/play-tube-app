@@ -11,7 +11,7 @@ const Navbar = () => {
       p={2}
       sx={{ position: 'sticky', backgroundColor: '#000', top: 0, justifyContent: 'space-between', display: 'flex', flexDirection: {xs: 'column', sm: 'row', md: 'row'}, gap: {xs : '20px 0', sm: '0'} }}
     >
-      <Link to="/" style={{ display: 'flex', alignItems: 'center', display: 'flex', }}>
+      <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
         <img src={logo} style={{ width: '40px', height: '40px' }} />
         <h3 style={{ color: '#fff', margin: '0 10px' }}>Playtube</h3>
       </Link>
