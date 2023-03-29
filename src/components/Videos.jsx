@@ -2,10 +2,11 @@ import { Box, Grid } from '@mui/material'
 import { Stack } from '@mui/system'
 import React from 'react'
 import ChannelCard from './ChannelCard'
+import Loader from './Loader'
 import VideoCard from './VideoCard'
 
-const Videos = ({ videos }) => {
-  console.log(videos)
+const Videos = ({ videos}) => {
+  if(!videos?.length) return <Loader />;
   return (
     <Grid container spacing={{ xs: 2, sm: 1, md:4 }} columns={{ xs: 4, sm: 8, md: 12 }}>
       { videos ? 
